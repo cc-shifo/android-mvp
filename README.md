@@ -7,5 +7,5 @@ android MVP model<br>
 ![](https://github.com/cc-shifo/android-mvp/raw/master/MVPDemo/mvp模型.png)<br>
 
 ### `Demonstration`<br>
-![](https://github.com/cc-shifo/android-mvc/raw/master/MVPDemo/mvp-demo.gif)<br>
+![](https://github.com/cc-shifo/android-mvp/raw/master/MVPDemo/mvp-demo.gif)<br>
 
