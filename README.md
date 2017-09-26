@@ -16,9 +16,9 @@ android MVP model<br>
 * ArticleAPI<T>
 >It is a interface. It'll be implemented by model self through ArticleAPIImpl. The presenter contain a reference to this interface.
 * DataListener
-Reflect the final result of getting model data to View through presenter's api. It is implemented in presenter.
+>Reflect the final result of getting model data to View through presenter's api. It is implemented in presenter.
 
 #### view
-* ArticlesFragment
+* ArticlesFragment<br>
 >Act as view, and contains a reference to peresenter. This fragment should implement the view interface named ArticleViewInterface, which will be transfered into presenter constructor. The connection between View and Presenter is
 built after presenter constructed in fragment.
