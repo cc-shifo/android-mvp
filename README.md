@@ -14,7 +14,7 @@ android MVP model<br>
 * ArticlesHandler and Article
 >Used to simulate to get model data<br>
 * ArticleAPI<T>
->It is a interface, which'll be implemented by model self through ArticleAPIImpl. The presenter contain a reference to this interface.
+>It is a interface,which'll be implemented by model self through ArticleAPIImpl. The presenter contain a reference to this interface.
 * DataListener
 >Reflect the final result of getting model data to View through presenter's api. It is implemented in presenter.
 
