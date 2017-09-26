@@ -19,6 +19,6 @@ android MVP model<br>
 >Reflect the final result of getting model data to View through presenter's api. It is implemented in presenter.
 
 #### view
-* ArticlesFragment<br>
+* ArticlesFragment
 >Act as view, and contains a reference to peresenter. This fragment should implement the view interface named ArticleViewInterface, which will be transfered into presenter constructor. The connection between View and Presenter is
 built after presenter constructed in fragment.
