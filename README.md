@@ -9,3 +9,14 @@ android MVP model<br>
 ### `Demonstration`<br>
 ![](https://github.com/cc-shifo/android-mvp/raw/master/MVPDemo/mvp-demo.gif)<br>
 
+### directory anotation
+* model
+>>ArticlesHandler and Article is used to simulate to get model data<br>
+>>ArticleAPI<T> is a interface. It'll be implemented by model self through ArticleAPIImpl. The presenter contain a reference
+  to this interface.
+>>DataListener refect the final result of getting model data to View through presenter's api. It is implemented in presenter.
+
+* view
+>>ArticlesFragment act as view, and contains a reference to peresenter. This fragment should implement the view interface 
+named ArticleViewInterface, which will be transfered into presenter constructor. The connection between View and Presenter is
+built after presenter constructed in fragment.
